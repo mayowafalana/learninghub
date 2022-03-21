@@ -29,5 +29,7 @@ kubectl rollout undo <deploymentname>
 Kubernetes Concepts – https://kubernetes.io/docs/concepts/
 Pod Overview- https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
 
+
+
 Dictionary is information about 1 item (e.g make, colour, price, transmission of 1 car)
 list is a information about multiple items (e.g a list of 8 different Chevy cruze)
