@@ -1,0 +1,35 @@
+git config user.email mayowa_owner1@gmail.com ##note: this will be gcp email
+git config user.name mayowa_owner1 ##Linux account 
+
+
+git clone https://github.com/mayowafalana/learning-app-ecommerce.git
+###create or edit new file then push it to remote git
+
+git status ####check the file
+
+git add <filename>
+
+git status ####check the file
+
+git commit <filename>
+
+git log
+
+git push origin main
+
+
+git branch -a ####list all branches
+
+git branch <new branchname> ###create a new branch
+
+git checkout <branchname> ###move to a master or branch repo
+
+git log remotes/origin/master --name-only (Include file name that was committed)
+
+git fetch
+
+git pull origin main ####Pull new updates from the remote git main or branch)
+
+git merge
+
+
