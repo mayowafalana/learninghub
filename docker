@@ -1,0 +1,18 @@
+docker run -it -d --name my-webapp ubuntu:18.01 ###(-it to keep it alive -d to keep it in detached mode)
+
+docker exec -it <containerid> bash
+
+####After modifying the container exit from it (install apache, modify all relevant files)
+
+docker commit <container name> ###to create an image from this container
+
+docker login -u mayowafalana (optional -p <password> you also enter the password after the prompt)
+
+docker tag <new image id> dockerhubname/<dockerhub repo>:<new image tag>
+
+docker push dockerhubname/<dockerhub repo>:<new image tag>
+
+
+Anyone can now download this form dockerhub and use directly
+
+Try same for an nginx & centos
