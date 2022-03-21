@@ -24,6 +24,8 @@ git branch <new branchname> ###create a new branch
 
 git checkout <branchname> ###move to a master or branch repo
 
+git checkout -b <new branch name> ###add new branch and checkout to it immediately 
+
 git log remotes/origin/master --name-only (Include file name that was committed)
 
 git fetch
