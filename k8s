@@ -1,0 +1,33 @@
+kubectl run nginx --image=nginx
+
+kubectl create deployment nginx --image=nginx
+
+kubectl create -f <yamlconfigfile>
+
+kubectl edit pod <podname>
+
+kubectl get nodes -o wide
+
+kubectl get pods -o wide
+kubectl get all
+
+kubectl describe pods <podname>
+kubectl describe svc <servicename>
+
+kubectl delete pod <podname>
+
+kubectl edit deployment <deployment name>
+
+kubectl apply -f <deploymentfile>
+kubectl set image deployment/myapp-deployment nginx=nginx:1.9.1
+
+kubectl rollout status <deployementname>
+kubectl rollout history <deploymentname>
+
+kubectl rollout undo <deploymentname>
+
+Kubernetes Concepts – https://kubernetes.io/docs/concepts/
+Pod Overview- https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/
+
+Dictionary is information about 1 item (e.g make, colour, price, transmission of 1 car)
+list is a information about multiple items (e.g a list of 8 different Chevy cruze)
