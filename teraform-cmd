@@ -15,3 +15,4 @@ resource "provider_type" "resourcename" {
 }
 
 ##Test new
+##test new 2
