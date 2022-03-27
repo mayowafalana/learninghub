@@ -1,0 +1,16 @@
+terraform init (ensures all required plugins for providers are installed, you should run this again if a new provider is specified)
+
+terrafrom plan
+terraform apply
+terrafrom destroy
+
+
+# where is .terraform/plugins located ?
+
+#determine official, verified and community providers
+
+resource "provider_type" "resourcename" {
+    filename = "/path/to/file"
+    content = "What to enter into file"
+}
+
