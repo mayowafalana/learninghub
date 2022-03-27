@@ -16,3 +16,6 @@ docker push dockerhubname/<dockerhub repo>:<new image tag>
 Anyone can now download this form dockerhub and use directly
 
 Try same for an nginx & centos
+
+
+docker rmi $(docker images -a -q)
