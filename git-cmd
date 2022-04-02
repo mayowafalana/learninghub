@@ -4,6 +4,10 @@ git config user.name mayowa_owner1 ##Linux account
 ##Connect to a remote git without cloning it 
 git remote add origin <giturl.git>
 
+git remote remove 
+
+git remote set-url origin <new url>
+
 ##Verify which remote git you are connected to
 git remote -v
 
