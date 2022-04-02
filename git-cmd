@@ -1,6 +1,11 @@
 git config user.email mayowa_owner1@gmail.com ##note: this will be gcp email
 git config user.name mayowa_owner1 ##Linux account 
 
+##Connect to a remote git without cloning it 
+git remote add origin <giturl.git>
+
+##Verify which remote git you are connected to
+git remote -v
 
 git clone https://github.com/mayowafalana/learning-app-ecommerce.git
 ###create or edit new file then push it to remote git
