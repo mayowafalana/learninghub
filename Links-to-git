@@ -1,8 +1,1 @@
-#git push from local repo is failing using passwd authentication, use below link to setup keys (https or ssh)
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-My Personal access token
-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
-
-https://docs.github.com/en/developers/overview/managing-deploy-keys#deploy-keys
 
